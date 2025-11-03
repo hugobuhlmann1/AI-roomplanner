@@ -1,0 +1,14 @@
+{
+  "build": {
+    "env": {
+      "NODE_VERSION": "20"
+    }
+  },
+  "functions": {
+    "api/**/*.func": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "installCommand": "npm ci || npm install --no-audit --no-fund",
+  "framework": "nextjs"
+}
